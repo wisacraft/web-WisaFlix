@@ -1,0 +1,308 @@
+/* Reset styles */
+body, h1, p, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(135deg, #e7f7ef, #d1e8f2);
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background: linear-gradient(90deg, #2c7a7b, #285e61);
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+/* Navigation styles */
+nav {
+    background: linear-gradient(90deg, #285e61, #1d4044);
+    padding: 0.7rem 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s;
+}
+
+nav a:hover {
+    color: #a3d9c5;
+    transform: scale(1.1);
+}
+
+/* Hero section styles */
+.hero {
+    background: url('./timeline.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 4rem 1rem;
+    text-align: center;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* Services section styles */
+.services {
+    padding: 2rem 1rem;
+    text-align: center;
+    background: linear-gradient(135deg, #b2f5ea, #81e6d9);
+}
+
+.services h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #2d3748;
+}
+
+.services .service-item {
+    margin: 1rem auto;
+    max-width: 800px;
+    background: #e6fffa;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    text-align: left;
+}
+
+.services .service-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #38b2ac;
+}
+
+.services .service-item p {
+    font-size: 1rem;
+    color: #4a5568;
+}
+
+/* Contact section styles */
+.contact {
+    padding: 2rem 1rem;
+    background: linear-gradient(135deg, #bee3f8, #90cdf4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #2b6cb0;
+    text-align: center;
+}
+
+.contact form {
+    width: 100%;
+    max-width: 700px;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.contact form label {
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    color: #2b6cb0;
+    font-weight: bold;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #555;
+}
+
+.contact form input:focus,
+.contact form textarea:focus {
+    border-color: #90cdf4;
+    outline: none;
+    box-shadow: 0 0 8px rgba(144, 205, 244, 0.5);
+}
+
+.contact form button {
+    width: 100%;
+    background: linear-gradient(90deg, #3182ce, #2c5282);
+    color: #fff;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.contact form button:hover {
+    background: linear-gradient(90deg, #2c5282, #1e3a8a);
+    transform: translateY(-3px);
+}
+
+.contact .info {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.contact .info p {
+    font-size: 1.1rem;
+    color: #2b6cb0;
+    margin: 0.5rem 0;
+}
+
+.contact .info a {
+    color: #63b3ed;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact .info a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styles */
+footer {
+    background: linear-gradient(90deg, #2c7a7b, #285e61);
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+    border-top: 3px solid #4fd1c5;
+}
+
+footer p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+/* Reset margin dan padding untuk elemen standar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+/* Navigasi */
+nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Section Kontak */
+#contact {
+    background-color: white;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+#contact p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+#contact a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+footer p a {
+    color: #00f;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
